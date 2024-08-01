@@ -4,9 +4,6 @@ name: Scheduled Health Check
 on:
   schedule:
     - cron: "0 0/12 * * *"
-  push:
-    branches:
-      - main
 
 
 jobs:
